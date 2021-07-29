@@ -1,0 +1,57 @@
+.profile-area {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 2rem;
+    // padding-left: 2rem;
+
+    img {
+        width: 10rem;
+        height: 10rem;
+        border-radius: 100%;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 500;
+
+        padding-top: 2rem;
+
+        color: var(--light-text-200);
+    }
+
+    a {
+        width: 50%;
+        font-size: 1rem;
+        font-weight: 500;
+
+        padding-top: 0.5rem;
+
+        color: var(--light-text-200);
+        text-decoration: none;
+        transition: .2s all;
+
+        :hover {
+            color: #fff;
+        }
+    }
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 1rem;
+    color: var(--light-text-200);
+
+    a {
+        width: 50%;
+        font-size: 0.8rem;
+        font-weight: 300;
+        transition: .2s all;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}

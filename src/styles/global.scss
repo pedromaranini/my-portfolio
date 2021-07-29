@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    background-color: var(--dark-800);
+
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --dark-800: #0d1117;
+
+    --light-text-200: #c9d1d9;
+}
