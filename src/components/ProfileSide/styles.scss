@@ -20,18 +20,28 @@
         color: var(--light-text-200);
     }
 
+    p:nth-child(4) {
+        font-size: 1rem;
+    }
+
+    p:nth-child(5) {
+        font-size: 1rem;
+        font-weight: 300;
+        padding-top: 1rem;
+    }
+
     a {
         width: 50%;
         font-size: 1rem;
-        font-weight: 500;
+        font-weight: 300;
 
         padding-top: 0.5rem;
 
         color: var(--light-text-200);
         text-decoration: none;
-        transition: .2s all;
+        transition: .3s all;
 
-        :hover {
+        &:hover {
             color: #fff;
         }
     }
@@ -48,7 +58,7 @@
         width: 50%;
         font-size: 0.8rem;
         font-weight: 300;
-        transition: .2s all;
+        transition: .3s all;
 
         &:hover {
             color: #fff;

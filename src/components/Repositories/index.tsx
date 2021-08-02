@@ -32,8 +32,7 @@ export function Repositories() {
 						className="content"
 						key={itemAtual.id}
 					>
-						<p>{itemAtual.name}</p>
-						<span>{itemAtual.language}</span>
+						<a href={`https://github.com/pedromaranini/${itemAtual.name}`}>{itemAtual.name}</a>
 						<p>{itemAtual.description}</p>						
 					</section>
 				);
