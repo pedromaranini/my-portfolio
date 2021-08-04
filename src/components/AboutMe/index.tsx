@@ -9,6 +9,9 @@ import postmanIcon from '../../assets/postman.png';
 import reactIcon from '../../assets/reactjs.svg';
 import sassIcon from '../../assets/sass.png';
 import typescriptIcon from '../../assets/typescript.svg';
+import whatsappIcon from '../../assets/whatsapp.png';
+import linkedinIcon from '../../assets/linkedin.png';
+import gmailIcon from '../../assets/gmail.png';
 
 export function AboutMe() {
 	return (
@@ -59,16 +62,26 @@ export function AboutMe() {
 					</a>
 				</div>
 
+				<div className="contact">
+					<h1>CONTATO</h1>
+					<a href="https://api.whatsapp.com/send?phone=5513997553821&">
+						<img src={whatsappIcon} alt="Whatsapp" />
+					</a>
+					<a href="https://www.linkedin.com/in/pedromaranini30/">
+						<img src={linkedinIcon} alt="Linkedin" />
+					</a>
+					<a href="mailto:pedrolucasmaranini30@gmail.com">
+						<img src={gmailIcon} alt="Gmail" />
+					</a>
+				</div>
 
 				<div className="language-stats">
-					<a href="https://github.com/pedromaranini">
-						<img
-							src="https://github-readme-stats.vercel.app/api?username=pedromaranini&theme=tokyonight&show_icons=true&hide=scss&layout=compact&count_private=true&include_all_commits=true" />
-					</a>
-					<a href="https://github.com/pedromaranini">
-						<img
-							src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedromaranini&hide=scss&layout=compact&theme=tokyonight" />
-					</a>
+					<img
+						src="https://github-readme-stats.vercel.app/api?username=pedromaranini&theme=tokyonight&show_icons=true&hide=scss&layout=compact&count_private=true&include_all_commits=true"
+					/>
+					<img
+						src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedromaranini&hide=scss&layout=compact&theme=tokyonight"
+					/>
 				</div>
 			</section>
 		</>
