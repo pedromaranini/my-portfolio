@@ -1,6 +1,6 @@
 import { ProfileSide } from '../../components/ProfileSide/index';
 import { AboutMe } from '../../components/AboutMe/index';
-import { Repositories } from '../../components/Repositories/index';
+// import { Repositories } from '../../components/Repositories/index';
 
 import './styles.scss';
 
