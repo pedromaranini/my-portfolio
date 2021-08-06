@@ -1,0 +1,20 @@
+.copyright {
+    text-align: center;
+    margin: 1rem auto;
+
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+    color: var(--light-text-200);
+    
+    a {
+        font-weight: 700;
+        text-decoration: none;
+        color: var(--border-color);
+        transition: .3s all;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}

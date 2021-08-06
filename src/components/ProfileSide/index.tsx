@@ -67,6 +67,15 @@ export function ProfileSide() {
 				<a href={`https://github.com/${githubUser}?tab=followers`} >({followers.length}) followers</a>
 				<a href={`https://github.com/${githubUser}?tab=repositories`}>({repos.length}) repositories</a>
 			</div>
+
+			<div className="buttons">
+				<button>Entre em Contato</button>
+
+				<a href="https://github.com/pedromaranini" target="_blank" rel="noreferrer">
+					<button>Acesse meu Github</button>
+				</a>
+			</div>
+
 		</section>
 	);
 }
