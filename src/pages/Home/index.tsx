@@ -13,7 +13,7 @@ export function Home() {
 
 			<div className="aboutArea" style={{ gridArea: "aboutArea"}}>
 				<AboutMe />
-				<Repositories />
+				{/* <Repositories /> */}
 			</div>
 		</main>
 	);

@@ -16,14 +16,13 @@
     height: 10rem;
 
     padding: 2.2px;
-
     border-radius: 100%;
     border: 3px solid var(--border-color);
   }
 
   p {
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 700;
 
     padding-top: 2rem;
 
@@ -32,6 +31,7 @@
 
   p:nth-child(4) {
     font-size: 1rem;
+    font-weight: 700;
 
     @media (max-width: 860px) {
       display: none;
@@ -40,7 +40,9 @@
 
   p:nth-child(5) {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 500;
+    font-style: italic;
+
     padding-top: 1rem;
   }
 
@@ -48,6 +50,7 @@
     // width: 50%;
     font-size: 1rem;
     font-weight: 300;
+    font-style: italic;
 
     padding-top: 0.5rem;
 

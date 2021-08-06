@@ -9,81 +9,68 @@ import postmanIcon from '../../assets/postman.png';
 import reactIcon from '../../assets/reactjs.svg';
 import sassIcon from '../../assets/sass.png';
 import typescriptIcon from '../../assets/typescript.svg';
-import whatsappIcon from '../../assets/whatsapp.png';
-import linkedinIcon from '../../assets/linkedin.png';
-import gmailIcon from '../../assets/gmail.png';
+// import whatsappIcon from '../../assets/whatsapp.png';
+// import linkedinIcon from '../../assets/linkedin.png';
+// import gmailIcon from '../../assets/gmail.png';
 
 export function AboutMe() {
 	return (
 		<>
-			<h1>SOBRE MIM</h1>
 			<section className="about-area">
-				<span>FRONT-END DEVELOPER</span>
-				<strong>Falaaaa, meu nome é Pedro, seja bem-vindo!</strong>
+				<span>SEJA <strong>BEM-VINDO</strong> AO MEU <strong>PORTFÓLIO</strong></span>
+				<p>Meu nome é Pedro, tenho 20 anos, seja <strong>bem-vindo</strong> esse é meu portfólio!</p>
+				<p>A tecnologia é brilhante, e o que me fascina nisso tudo é saber em como as coisas são feitas e como funcionam.</p>
 				<p>
-					No começo do ano iniciei minha carreira no mercado de tecnologia e, hoje atuo como Desenvolvedor Front-End,
-					trabalhando, focando, estudando e aprimorando meu conhecimento na stack que desenvolvo, os projetos
-					desenvolvidos por mim estão todos no meu Github, abaixo vou deixar a tecnologias que eu utilizo.
-					Caso queira entrar em contato comigo as opções estão abaixo, abraçossssss :)
+					Atualmente sou um <strong>Desenvolvedor Front-End</strong> em construção, evolução e aprimoramento.
+					Em construção pois, <strong>meu objetivo é sempre evoluir</strong> e <strong>aumentar o leque de aprendizagem</strong> para, trabalhar e
+					desenvolver com novas tecnologias e sistemas.
 				</p>
-
-				<div className="stack">
-					{/* SASS */}
-					<a href="https://sass-lang.com/">
-						<img src={sassIcon} alt="Sass" />
-					</a>
-					{/* CSS */}
-					<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">
-						<img src={cssIcon} alt="Css" />
-					</a>
-					{/* HTML */}
-					<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
-						<img src={htmlIcon} alt="Html5" />
-					</a>
-					{/* JAVASCRIPT */}
-					<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">
-						<img src={javascriptIcon} alt="Javascript" />
-					</a>
-					{/* TYPESCRIPT */}
-					<a href="https://www.typescriptlang.org/">
-						<img src={typescriptIcon} alt="Typescript" />
-					</a>
-					{/* REACTJS */}
-					<a href="https://pt-br.reactjs.org/">
-						<img src={reactIcon} alt="ReactJS" />
-					</a>
-					{/* INSOMNIA */}
-					<a href="https://insomnia.rest/">
-						<img src={insomniaIcon} alt="Insomnia" />
-					</a>
-					{/* POSTMAN */}
-					<a href="https://www.postman.com/">
-						<img src={postmanIcon} alt="Postman" />
-					</a>
-				</div>
-
-				<div className="contact">
-					<h1>CONTATO</h1>
-					<a href="https://api.whatsapp.com/send?phone=5513997553821&">
-						<img src={whatsappIcon} alt="Whatsapp" />
-					</a>
-					<a href="https://www.linkedin.com/in/pedromaranini30/">
-						<img src={linkedinIcon} alt="Linkedin" />
-					</a>
-					<a href="mailto:pedrolucasmaranini30@gmail.com">
-						<img src={gmailIcon} alt="Gmail" />
-					</a>
-				</div>
-
-				<div className="language-stats">
-					<img
-						src="https://github-readme-stats.vercel.app/api?username=pedromaranini&theme=tokyonight&show_icons=true&hide=scss&layout=compact&count_private=true&include_all_commits=true"
-					/>
-					<img
-						src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedromaranini&hide=scss&layout=compact&theme=tokyonight"
-					/>
-				</div>
 			</section>
+			<div className="line" />
+
+			<section className="stack">
+				<a href="https://pt-br.reactjs.org/">
+					<img src={reactIcon} alt="ReactJS" />
+					<p>ReactJS</p>
+				</a>
+
+				<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">
+					<img src={javascriptIcon} alt="Javascript" />
+					<p>Javascript</p>
+				</a>
+
+				<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">
+					<img src={cssIcon} alt="Css" />
+					<p>CSS</p>
+				</a>
+
+				<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+					<img src={htmlIcon} alt="Html5" />
+					<p>HTML</p>
+				</a>
+
+				<a href="https://sass-lang.com/">
+					<img src={sassIcon} alt="Sass" />
+					<p>SASS</p>
+				</a>
+
+				<a href="https://www.typescriptlang.org/">
+					<img src={typescriptIcon} alt="Typescript" />
+					<p>Typescript</p>
+				</a>
+
+				<a href="https://insomnia.rest/">
+					<img src={insomniaIcon} alt="Insomnia" />
+					<p>Insomnia</p>
+				</a>
+
+				<a href="https://www.postman.com/">
+					<img src={postmanIcon} alt="Postman" />
+					<p>Postman</p>
+				</a>
+
+			</section>
+			<div className="line" />
 		</>
 	);
 }
