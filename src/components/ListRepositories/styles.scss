@@ -1,0 +1,68 @@
+.list-repo {
+	width: 95%;
+	height: 50vh;
+	background: var(--dark-700);
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	flex-direction: column;
+
+	margin: 2rem 0 0 2rem;
+
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+
+	@media (max-width: 860px) {
+		height: auto;
+		margin: 0 auto;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.title {
+		width: 90%;
+
+		margin: 6rem auto;
+
+		@media (max-width: 860px) {
+			margin: 2rem auto;
+			text-align: center;
+		}
+
+		h1 {
+			font-size: 1.8rem;
+			font-weight: 700;
+
+			color: var(--light-text-200);
+		}
+
+		p {
+			font-size: 1rem;
+			font-weight: 400;
+
+			margin: 1.5rem auto;
+
+			color: var(--light-text-200);
+		}
+	}
+
+	.button-list {
+		width: 90%;
+
+		margin: 8rem auto;
+
+		button {
+			width: 80%;
+			background: var(--border-color);
+		}
+		
+		@media (max-width: 860px) {
+			margin: 2rem auto;
+		}
+
+	}
+}

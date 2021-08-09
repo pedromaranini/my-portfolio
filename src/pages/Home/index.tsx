@@ -1,6 +1,7 @@
 import { ProfileSide } from '../../components/ProfileSide/index';
 import { AboutMe } from '../../components/AboutMe/index';
-// import { Repositories } from '../../components/Repositories/index';
+import { Stack } from '../../components/Stack/index';
+import { ListRepositories } from '../../components/ListRepositories/index';
 
 import './styles.scss';
 
@@ -13,7 +14,8 @@ export function Home() {
 
 			<div className="aboutArea" style={{ gridArea: "aboutArea"}}>
 				<AboutMe />
-				{/* <Repositories /> */}
+				<Stack />
+				<ListRepositories />
 			</div>
 		</main>
 	);

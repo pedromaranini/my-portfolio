@@ -4,7 +4,7 @@
 
 	margin: 3rem auto;
 
-	@media(max-width: 860px) {
+	@media (max-width: 860px) {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -13,7 +13,7 @@
 }
 
 .content {
-  width: 97%;
+	width: 97%;
 	height: 30vh;
 
 	margin-bottom: 2rem;
@@ -22,7 +22,7 @@
 	border-radius: 8px;
 	color: var(--light-text-200);
 
-	@media(max-width: 860px) {
+	@media (max-width: 860px) {
 		width: 100%;
 		height: auto;
 
@@ -39,7 +39,7 @@
 		margin-left: 0.5rem;
 
 		text-decoration: none;
-		transition: .3s all;
+		transition: 0.3s all;
 
 		&:hover {
 			color: #fff;

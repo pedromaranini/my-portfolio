@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
+
 import './styles.scss';
 
 export function Repositories() {
@@ -9,7 +10,7 @@ export function Repositories() {
 		language: '',
 		description: ''
 	}]);
-	
+
 	useEffect(() => {
 		// // REPOSITORIES
 		fetch('https://api.github.com/users/pedromaranini/repos')
@@ -28,15 +29,15 @@ export function Repositories() {
 			<div />
 			{repos.map((itemAtual) => {
 				return (
-					<section 
+					<section
 						className="content"
 						key={itemAtual.id}
 					>
 						<a href={`https://github.com/pedromaranini/${itemAtual.name}`}>{itemAtual.name}</a>
-						<p>{itemAtual.description}</p>						
+						<p>{itemAtual.description}</p>
 					</section>
 				);
 			})}
 		</main>
-	);
+	)
 }

@@ -1,11 +1,13 @@
-import { Home } from './pages/Home/index';
+// import { Home } from './pages/Home/index';
+import { Routes } from './routes';
 
 import './App.scss';
 
 function App() {
   return (
     <>
-      <Home />
+      <Routes />
+      {/* <Home /> */}
       <p className="copyright">Copyright 2021 © with❤️ by <a 
           href="https://www.linkedin.com/in/pedromaranini30/" 
           target="_blank" 

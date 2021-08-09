@@ -1,0 +1,27 @@
+.line {
+	width: 95%;
+	height: 3px;
+	background: var(--border-color);
+
+	margin: 0 0 0 2rem;
+
+	@media (max-width: 860px) {
+		margin: 0 0 2rem 0.6rem;
+	}
+
+	@media (max-width: 414px) {
+		margin: 0 0 2rem 0.47rem;
+	}
+
+	@media (max-width: 375px) {
+		margin: 0 0 2rem 0.41rem;
+	}
+
+	@media (max-width: 360px) {
+		margin: 0 0 2rem 0.4rem;
+	}
+
+	@media (max-width: 320px) {
+		margin: 0 0 2rem 0.3rem;
+	}
+}
