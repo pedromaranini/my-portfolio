@@ -90,7 +90,7 @@
 		border-radius: 8px;
 
 		background: #202020;
-		transition: 0.5s all;
+		transition: .4s all;
 		text-decoration: none;
 
 		@media (max-width: 860px) {
@@ -99,7 +99,7 @@
 		}
 
 		&:hover {
-			opacity: 0.7;
+			opacity: 0.8;
 		}
 
 		p {

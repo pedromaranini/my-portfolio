@@ -1,7 +1,12 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useEffect } from 'react';
 import { useState } from 'react';
 
-import './styles.scss'
+import { Button } from '../Button/index';
+
+import cvPdf from '../../content/cv.pdf';
+
+import './styles.scss';
 
 export function ProfileSide() {
 	const githubUser = "pedromaranini";
@@ -69,13 +74,16 @@ export function ProfileSide() {
 			</div>
 
 			<div className="buttons">
-				<button>Entre em Contato</button>
-
 				<a href="https://github.com/pedromaranini" target="_blank" rel="noreferrer">
-					<button>Acesse meu Github</button>
+					<Button title="Acesse meu Github" />
+				</a>
+
+				<Button title="Entre em contato" />
+
+				<a href={cvPdf} download="cv-pedromaranini">
+					<Button title="Download CV" />
 				</a>
 			</div>
-
 		</section>
 	);
 }
