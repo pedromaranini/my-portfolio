@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { BsArrowLeft } from 'react-icons/bs';
 
 import './styles.scss';
 
@@ -24,20 +25,36 @@ export function Repositories() {
 	}, [])
 
 	return (
-		<main className="container">
-			<h1>REPOSITORIES</h1>
-			<div />
-			{repos.map((itemAtual) => {
-				return (
-					<section
-						className="content"
-						key={itemAtual.id}
-					>
-						<a href={`https://github.com/pedromaranini/${itemAtual.name}`}>{itemAtual.name}</a>
-						<p>{itemAtual.description}</p>
-					</section>
-				);
-			})}
-		</main>
+		<>
+			<a href="/">
+				<BsArrowLeft className="back-icon" />
+			</a>
+			<main className="container">
+				<div className="title-subtitle">
+					<h1>Lista de repositórios</h1>
+					<p>
+						Os repositórioes contém apenas Nome, Descrição e Linguagem, informações mais detalhadas estão disponivel no <a
+							href="https://github.com/pedromaranini?tab=repositories"
+							target="_blank"
+							rel="noreferrer"
+						>
+							Github
+						</a>
+					</p>
+				</div>
+				{repos.map((itemAtual) => {
+					return (
+						<section
+							className="content"
+							key={itemAtual.id}
+						>
+							<a href={`https://github.com/pedromaranini/${itemAtual.name}`}>{itemAtual.name}</a>
+							<p>{itemAtual.language}</p>
+							<p>{itemAtual.description}</p>
+						</section>
+					);
+				})}
+			</main>
+		</>
 	)
 }
